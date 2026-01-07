@@ -1,0 +1,18 @@
+/* Below the foramtting for the top of the page */
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 17px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+a {
+    text-decoration: none;
+}
