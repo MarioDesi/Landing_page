@@ -1,14 +1,19 @@
 /* Font style for the page */ 
 body {
     font-family: Arial, sans-serif;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    
 }
 
 /* Below is the foramt for the top of the page */
 .header {
     display: flex;
     justify-content: space-between;
+    color: white;
+    background-color: #001a4d;
 }
 
 h1 {
@@ -39,8 +44,6 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
 }
 
 .mid-one .bottom {
@@ -51,4 +54,15 @@ a {
 .mid-one .bottom img {
     width: 40px;
 }
- 
+
+/* Style for mid-two section */
+
+.mid-two { 
+    color: green;
+}
+
+.mid-two .author {
+    display: flex;
+    justify-content: flex-end;
+}
+
