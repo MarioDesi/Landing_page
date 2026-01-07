@@ -1,12 +1,12 @@
 /* Font style for the page */ 
 body {
     font-family: Arial, sans-serif;
-    margin-right: 40px;
-    margin-left: 40px;
+    margin-left: 80px;
+    margin-right: 80px;
 }
 
 /* Below is the foramt for the top of the page */
-.top {
+.header {
     display: flex;
     justify-content: space-between;
 }
@@ -33,3 +33,22 @@ a {
 .sign-up img {
     width: 200px;
 }
+
+/* mid-one section of the page */
+.mid-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.mid-one .bottom {
+    color: blue;
+    display: flex;
+}
+
+.mid-one .bottom img {
+    width: 40px;
+}
+ 
