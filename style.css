@@ -4,8 +4,7 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
-    gap: 80px;
-    
+    height: 100vh;
 }
 
 /* Below is the foramt for the top of the page */
@@ -65,4 +64,15 @@ a {
     display: flex;
     justify-content: flex-end;
 }
+
+/* Centering page */
+
+.header, .mid-one, .mid-two, .sign-up, .sign-up-two {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+/* footer */
+
+
 
