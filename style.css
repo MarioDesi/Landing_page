@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    background-color: #001a4d;
+    background-color: #164169;
 }
 
 h1 {
@@ -27,12 +27,15 @@ ul {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 /* Sign up section of the page */
 .sign-up {
     display: flex;
     justify-content: space-between;
+    background-color:#164169; 
+    padding-bottom: 25px;
 }
 .sign-up img {
     width: 200px;
@@ -51,7 +54,9 @@ a {
 }
 
 .mid-one .bottom img {
-    width: 40px;
+    width: 60px;
+    border: 2px solid #1a75ff;
+    border-radius: 7px;
 }
 
 /* Style for mid-two section */
@@ -68,11 +73,13 @@ a {
 /* Centering page */
 
 .header, .mid-one, .mid-two, .sign-up, .sign-up-two {
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 /* footer */
 
-
+.sign-up-two {
+    flex: 1;/* This is pushes the footer to the bottom since direct child of body it already a flex box*/
+}
 
