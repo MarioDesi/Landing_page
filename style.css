@@ -12,7 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: white;
-    background-color: #164169;
+    background-color: #1C2430;
 }
 
 h1 {
@@ -34,11 +34,15 @@ a {
 .sign-up {
     display: flex;
     justify-content: space-between;
-    background-color:#164169; 
+    background-color:#1C2430; 
     padding-bottom: 25px;
 }
 .sign-up img {
     width: 200px;
+}
+
+.left div {
+    color: white;
 }
 
 /* mid-one section of the page */
@@ -49,7 +53,6 @@ a {
 }
 
 .mid-one .bottom {
-    color: blue;
     display: flex;
 }
 
@@ -59,10 +62,15 @@ a {
     border-radius: 7px;
 }
 
+.container {
+    margin: 3px;
+}
+
 /* Style for mid-two section */
 
 .mid-two { 
-    color: green;
+    padding: 30px;
+    background-color: #E5E7EB;
 }
 
 .mid-two .author {
@@ -81,5 +89,19 @@ a {
 
 .sign-up-two {
     flex: 1;/* This is pushes the footer to the bottom since direct child of body it already a flex box*/
+    margin-top: 10px;
+}
+
+.box { 
+    background-color: #3B82F6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1C2430;
+    color: white;
 }
 
