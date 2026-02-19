@@ -29,7 +29,7 @@ ul {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #E5E7EB;
 }
 
 /* Sign up section of the page */
@@ -49,11 +49,16 @@ a {
     color: white;
 }
 
+.info {
+    color: #E5E7EB;
+}
+
 /* mid-one section of the page */
 .mid-one {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: center;/* this forces the children of this element to shrik their size to be centered, so have to explicitly
+    tell the element to take 100% of space available by declaring width 100% */
 }
 .mid-one .top {
     padding-bottom: 2rem;
@@ -63,28 +68,36 @@ a {
 
 .mid-one .bottom {
     display: flex;
-}
-
-.mid-one .bottom img {
-    width: 7rem;
-    border: 2px solid #1a75ff;
-    border-radius: 7px;
+    justify-content: space-between;
+    width: 100%;
+    color: #888888;
 }
 
 .container {
-    margin: 3px;
+    text-align: center;
 }
+.mid-one .bottom .container div {
+    width: 6.7rem;
+}
+
+.mid-one .bottom img {
+    width: 6.7rem;
+    border: 2px solid #4ca2dc;
+    border-radius: 7px;
+}
+
 
 /* Style for mid-two section */
 
 .mid-two { 
-    padding: 4rem;
+    padding: 4rem 9rem;
     background-color: #E5E7EB;
 }
 .quote {
     font-style: italic;
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: normal;
+    color: #888888;
 }   
 
 .mid-two .author {
@@ -96,18 +109,39 @@ a {
 
 /* Centering page */
 
-.header, .mid-one, .mid-two, .sign-up, .sign-up-two {
-    padding-left: 80px;
-    padding-right: 80px;
+.header, .mid-one, .sign-up, .sign-up-two {
+    padding: 0 7rem;
 }
+
+
 
 /* footer */
 
 
 .box { 
-    background-color: #3B82F6;
+    background-color: #4ca2dc;
     border-radius: 10px;
-    padding: 1rem;
+    padding: 1.5rem 5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 0.95rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+button {
+    height: 1.4rem;
+    width: 5rem;
+    padding: 0.1rem;
+    background-color: #4ca2dc; 
+    border-radius: 5px;
+    color: white;
+    border: none;
+    font-size: 0.7rem;
+}
+.sign-up-two button {
+    border: solid white 0.12rem;
 }
 
 .footer {
@@ -115,6 +149,8 @@ a {
     justify-content: center;
     background-color: #1C2430;
     color: white;
+    height: 2rem;
+    padding: 0.5rem 0rem;
 }
 
 /* Repeated attributes */
@@ -128,6 +164,6 @@ a {
 }
 
 .sign-up-two .info, ul, .container div, .footer, .sign-up .info{
-    font-size: 0.76rem;
+    font-size: 0.6rem;
     font-weight: normal;
 }
